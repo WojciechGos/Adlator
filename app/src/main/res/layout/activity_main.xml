@@ -3,38 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:background="@drawable/drawable_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <fragment
-        android:name="com.example.wojciech.fraction.FragmentConstant"
+
+    <WebView
+        android:id="@+id/display"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.8"
-        tools:layout="@layout/fragment_constant" />
-
+        android:layout_height="wrap_content" />
 
     <LinearLayout
-        style="@style/styleLinearLayout">
+        style="@style/styleLinearLayout"
+        android:orientation="horizontal">
 
-        <fragment
-            android:id="@+id/id_fragment_numerator"
-            android:name="com.example.wojciech.fraction.FragmentNumerator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_numerator" />
+        <LinearLayout style="@style/styleLinearLayout">
 
-        <fragment
-            android:id="@+id/id_fragment_denominator"
-            android:name="com.example.wojciech.fraction.FragmentDenominator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_denominator" />
+            <fragment
+                android:id="@+id/id_fragment_constant"
+                class="com.example.wojciech.fraction.FragmentConstant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_constant" />
+        </LinearLayout>
 
+
+        <LinearLayout style="@style/styleLinearLayout">
+
+            <fragment
+                android:id="@+id/id_fragment_numerator"
+                class="com.example.wojciech.fraction.FragmentNumerator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_numerator" />
+
+            <fragment
+                android:id="@+id/id_fragment_denominator"
+                class="com.example.wojciech.fraction.FragmentDenominator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_denominator" />
+
+        </LinearLayout>
     </LinearLayout>
-
-
-
 
 
 </LinearLayout>

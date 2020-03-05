@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fraction">
+    tools:context=".FragmentDenominator">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -15,57 +15,23 @@
 
 
             <Button
-                android:id="@+id/button3"
+                android:text="@string/backspace"
+                android:id="@+id/button_denominator_backspace"
                 style="@style/styleButton"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_bracket_left"
+                android:text="@string/bracket_left"
                 style="@style/styleButton"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_bracket_right"
+                android:text="@string/bracket_right"
                 style="@style/styleButton"/>
 
             <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/styleLinearLayout">
-
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/styleLinearLayout">
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-
-            <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_horizontal_ellipsis"
+                android:text="@string/horizontal_ellipsis"
                 style="@style/styleButton"/>
         </LinearLayout>
 
@@ -74,17 +40,45 @@
 
 
             <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
-            <Button
-                android:id="@+id/button3"
-                style="@style/styleButton"/>
+                android:id="@+id/button_denominator_number_seven"
+                style="@style/styleButton"
+                android:text="@string/number_seven"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_number_four"
+                style="@style/styleButton"
+                android:text="@string/number_four"/>
+
+            <Button
+                android:id="@+id/button_denominator_number_one"
+                style="@style/styleButton"
+                android:text="@string/number_one"/>
+            <Button
+                android:id="@+id/button_denominator_dot"
+                android:text="@string/dot"
+                style="@style/styleButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/styleLinearLayout">
+            <Button
+                android:id="@+id/button_denominator_number_eight"
+                style="@style/styleButton"
+                android:text="@string/number_eight"/>
+            <Button
+                android:id="@+id/button_denominator_number_five"
+                style="@style/styleButton"
+                android:text="@string/number_five"
+                />
+
+            <Button
+                android:id="@+id/button_denominator_number_two"
+                style="@style/styleButton"
+                android:text="@string/number_two"/>
+
+            <Button
+                android:id="@+id/button_denominator_number_zero"
+                android:text="@string/number_zero"
                 style="@style/styleButton"/>
         </LinearLayout>
 
@@ -93,17 +87,44 @@
 
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_number_nine"
+                style="@style/styleButton"
+                android:text="@string/number_nine"/>
+            <Button
+                android:id="@+id/button_denominator_number_six"
+                style="@style/styleButton"
+                android:text="@string/number_six"/>
+            <Button
+                android:id="@+id/button_denominator_number_three"
+                style="@style/styleButton"
+                android:text="@string/number_three"/>
+
+            <Button
+                android:text="@string/plus_or_minus"
+                android:id="@+id/button_denominator_plus_or_minus"
+                style="@style/styleButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/styleLinearLayout">
+
+
+            <Button
+                android:id="@+id/button_denominator_divide"
+                android:text="@string/divide"
                 style="@style/styleButton"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_multiplication"
+                android:text="@string/multiplication"
                 style="@style/styleButton"/>
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_minus"
+                android:text="@string/minus"
                 style="@style/styleButton"/>
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_denominator_plus"
+                android:text="@string/plus"
                 style="@style/styleButton"/>
         </LinearLayout>
 

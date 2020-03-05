@@ -13,20 +13,32 @@
            style="@style/styleLinearLayout">
 
            <Button
+               android:id="@+id/button_constant_delete"
+               android:text="@string/delete"
                style="@style/styleButton" />
 
            <Button
                style="@style/styleButton" />
 
            <Button
+               android:id="@+id/button_constant_bracket_left"
+               android:text="@string/bracket_left"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_seven"
+               android:text="@string/number_seven"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_four"
+               android:text="@string/number_four"
                style="@style/styleButton" />
            <Button
-               style="@style/styleButton" />
+               android:id="@+id/button_constant_number_one"
+               style="@style/styleButton"
+               android:text="@string/number_one"/>
            <Button
+               android:id="@+id/button_constant_dot"
+               android:text="@string/dot"
                style="@style/styleButton" />
        </LinearLayout>
 
@@ -40,14 +52,24 @@
                style="@style/styleButton" />
 
            <Button
+               android:id="@+id/button_constant_bracket_right"
+               android:text="@string/bracket_right"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_eight"
+               android:text="@string/number_eight"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_five"
+               android:text="@string/number_five"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_two"
+               android:text="@string/number_two"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_zero"
+               android:text="@string/number_zero"
                style="@style/styleButton" />
        </LinearLayout>
 
@@ -56,18 +78,30 @@
            style="@style/styleLinearLayout">
 
            <Button
+               android:id="@+id/button_constant_backspace"
+               android:text="@string/backspace"
                style="@style/styleButton" />
 
            <Button
+               android:id="@+id/button_constant_plus_or_minus"
+               android:text="@string/plus_or_minus"
                style="@style/styleButton" />
 
            <Button
+               android:id="@+id/button_constant_percentage"
+               android:text="@string/percentage"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_nine"
+               android:text="@string/number_nine"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_six"
+               android:text="@string/number_six"
                style="@style/styleButton" />
            <Button
+               android:id="@+id/button_constant_number_three"
+               android:text="@string/number_three"
                style="@style/styleButton" />
            <Button
                style="@style/styleButton" />
